@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 50px 10px 10px 10px;
+      }
+
+      .main {
+
+        /* background-color: red; */
+        /* text-align: left; */
+        /* margin: 50px; */
+        /* height: 300px; */
+        border: 1px solid blue;
+        max-width: 900px;
+        color: white;
+        font-size: 20px;
+        display: grid;
+        grid-template-areas:
+          'head1 head2 head3 head4'
+          'head5 head6 head6 head7'
+          'head5 head8 head9 head7'
+
+      }
+
+      .head1 {
+        grid-area: head1;
+        padding-left: 12px;
+        /* grid-column: 1/2;
+        grid-row: 4/5; */
+
+      }
+
+      .head2 {
+        grid-area: head2;
+        text-align: center;
+
+      }
+
+      .head3 {
+        grid-area: head3;
+        text-align: center;
+      }
+
+      .head4 {
+        grid-area: head4;
+        text-align: center;
+      }
+
+      .head5 {
+        grid-area: head5;
+        padding-left: 12px;
+      }
+
+      .head6 {
+        grid-area: head6;
+        padding-left: 12px;
+      }
+
+      .head7 {
+        grid-area: head7;
+        padding-left: 12px;
+
+      }
+
+      .head8 {
+        grid-area: head8;
+        padding-left: 12px;
+      }
+
+      .head9 {
+        grid-area: head9;
+        padding-left: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="head1" style="background-color: black;">
+        <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sit rem molestiae veniam consequatur
+          totam!
+        </p>
+      </div>
+      <div class="head2" style="background-color: skyblue;">
+        <h3>heading</h3>
+
+
+      </div>
+      <div class="head3" style="background-color: grey;">
+        <h3>heading</h3>
+
+      </div>
+      <div class="head4" style="background-color: black;">
+        <h3>heading</h3>
+
+      </div>
+      <div class="head5" style="background-color: purple;">
+        <h3>heading</h3>
+        <p>your content goes here</p>
+      </div>
+      <div class="head6" style="background-color: black;">
+        <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sit rem molestiae veniam consequatur
+          totam!
+        </p>
+      </div>
+      <div class="head7" style="background-color: purple;">
+        <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sit rem molestiae veniam consequatur
+          totam!
+        </p>
+      </div>
+      <div class="head8" style="background-color: skyblue;">
+        <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sit rem molestiae veniam consequatur
+          totam!
+        </p>
+      </div>
+      <div class="head9" style="background-color: grey;">
+        <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sit rem molestiae veniam consequatur
+          totam!
+        </p>
+      </div>
+    </div>
+  </body>
+
+</html>

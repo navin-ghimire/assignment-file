@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 10px;
+      }
+
+      .bx {
+        border: 1px solid black;
+        max-width: 550px;
+        /* height: 300px; */
+        align-items: start;
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* gap: 10px; */
+        /* align-content: start; */
+        /* row-gap: 10px;
+        column-gap: 10px; */
+        /* align-items: center;
+        justify-content: center; */
+
+
+        /* flex-direction: column-reverse; */
+      }
+
+      .item {
+        width: 100px;
+        /* flex-grow: 1; */
+
+
+      }
+
+      .item1 {
+        background-color: red;
+        flex-shrink: 3;
+        order: 3;
+        /* align-self: center; */
+        /* align-self: flex-end; */
+        /* flex-grow: 2; */
+      }
+
+      .item2 {
+        background-color: yellow;
+        order: 5;
+        flex-shrink: 3;
+      }
+
+      .item3 {
+        background-color: green;
+        order: 2;
+
+      }
+
+      .item4 {
+        background-color: gold;
+        order: 1;
+
+      }
+
+      .item5 {
+        background-color: blue;
+        order: 4;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <di class="bx">
+
+      <div class="item item1">
+        <h3>box1</h3>
+      </div>
+      <div class="item item2">
+        <h3>box2</h3>
+      </div>
+      <div class="item item3">
+        <h3>box3</h3>
+      </div>
+      <div class="item item4">
+        <h3>box4</h3>
+      </div>
+      <div class="item item5">
+        <h3>box5</h3>
+      </div>
+
+      </div>
+  </body>
+
+</html>
